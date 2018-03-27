@@ -1,0 +1,9 @@
+.MainSlider {
+    width: 100%;
+    position: absolute;
+    top: 250px;
+    height: 350px;
+    left: 0;
+    background-color: lightblue;
+    overflow: hidden;
+}

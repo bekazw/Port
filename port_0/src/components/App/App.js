@@ -3,6 +3,7 @@ import './App.css';
 
 import Logo from '../Logo/Logo';
 import BarElement from '../NavBar/NavBarElement/BarElement';
+import MainSlider from '../MainSlider/MainSlider'
 
 class App extends Component {
   render() {
@@ -12,6 +13,7 @@ class App extends Component {
         <BarElement NavBarTitle="About" left="1000px" />
         <BarElement NavBarTitle="Samples" left="1150px" />
         <BarElement NavBarTitle="PocketBook" left="1300px" />
+        <MainSlider />
       </div>
     );
   }

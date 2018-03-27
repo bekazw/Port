@@ -1,0 +1,25 @@
+.SliderArrowL, .SliderArrowR{
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    position: absolute;
+    top: 50%;
+    margin-top: -25px;    
+    border-radius: 25px;
+}
+.SliderArrowL {
+    left: 10%;
+}
+.SliderArrowR {
+    left: 86%;
+       
+}
+.SliderArrowL:hover,.SliderArrowR:hover {
+    width: 56px;
+    height: 56px;
+    box-shadow: 0 0 0 1px lightgreen;
+    margin-left: -3px;
+    margin-top: -28px;
+    border-radius: 28px;
+} 
+ 

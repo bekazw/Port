@@ -1,0 +1,13 @@
+.SlideElement {
+    position: absolute;
+    width: 90%;
+    height: 330px;    
+    background-color: lawngreen;
+    top: 10px;
+}
+.Slide1 {
+    left: 5%;
+}
+.Slide2 {
+    left: 105%;
+}
