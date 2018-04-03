@@ -1,0 +1,27 @@
+.skill {
+    position: absolute;
+    width: 300px;
+    height: 300px;    
+    top: 250px;
+    border: 1px solid black;
+}
+.skillName {
+    position: absolute;
+    width:200px;
+    height: 200px;
+    left: 50px;
+    top: 30px;
+    border: 1px solid red;
+}
+.skillTextUp {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 10px;
+}
+.skillTextDown {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 250px;
+}
