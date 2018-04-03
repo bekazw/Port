@@ -7,12 +7,7 @@ import {
     currentSlide : 1
   }  
 //actions
-  const a_slide = direction => {
-    return {
-      type: 'SLIDE',
-      direction
-    }
-  }
+
 //reducer
   export const r_slide = (state = initialState, action) => {  
     switch (action.type) {

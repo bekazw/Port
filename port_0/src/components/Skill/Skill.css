@@ -2,8 +2,11 @@
     position: absolute;
     width: 300px;
     height: 300px;    
-    top: 250px;
-    border: 1px solid black;
+    top: 250px;   
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
 }
 .skillName {
     position: absolute;
@@ -25,3 +28,7 @@
     text-align: center;
     top: 250px;
 }
+.bi1 {    background-image: url("./pics/html_css_js.png")}
+.bi2 {    background-image: url("./pics/react.png")}
+.bi3 {    background-image: url("./pics/angular.png")}
+.bi4 {    background-image: url("./pics/python.png")}

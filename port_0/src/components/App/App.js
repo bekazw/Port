@@ -14,11 +14,31 @@ export default class App extends Component {
         <BarElement NavBarTitle="Samples"    left="1150px" />
         <BarElement NavBarTitle="PocketBook" left="1300px" />   
       
-        <p classname > I'm good at: </p>
-        <Skill AllLeft = "120"  skillTextDown = "HTML\CSS\JS"   skillTextUp = "FrontEnd"/>
-        <Skill AllLeft = "540"  skillTextDown = "React"     skillTextUp = "FrontEnd" />
-        <Skill AllLeft = "960"  skillTextDown = "Angular"  skillTextUp = "FrontEnd"/>
-        <Skill AllLeft = "1380" skillTextDown = "Python" skillTextUp = "BackEnd"/>
+        <p> I'm good at: </p>
+        <Skill 
+          AllLeft = "120"  
+          skillTextDown = "HTML\CSS\JS"   
+          skillTextUp = "FrontEnd"
+          bI = "bi1"
+        />
+        <Skill 
+          AllLeft = "540"  
+          skillTextDown = "React"        
+          skillTextUp = "FrontEnd"
+          bI = "bi2"
+        />
+        <Skill 
+          AllLeft = "960"  
+          skillTextDown = "Angular" 
+          skillTextUp = "FrontEnd"
+          bI = "bi3"
+        />
+        <Skill 
+          AllLeft = "1380" 
+          skillTextDown = "Python" 
+          skillTextUp = "BackEnd"
+          bI = "bi4"
+        />
       </div>
     );
   }
