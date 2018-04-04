@@ -1,0 +1,8 @@
+.WorkIcon {
+    position: absolute;
+    width: 200px;
+    height: 270px;
+    border: 1px solid black;
+    left: 50px;
+    top: 800px;
+}

@@ -4,6 +4,7 @@ import './App.css';
 import Logo from '../Logo/Logo';
 import BarElement from '../NavBar/NavBarElement/BarElement';
 import Skill from '../Skill/Skill'
+import WorkIcon from '../WorkIcon/WorkIcon';
 
 export default class App extends Component {
   render() {
@@ -39,7 +40,13 @@ export default class App extends Component {
           skillTextUp = "BackEnd"
           bI = "bi4"
         />
-      </div>
+        <WorkIcon left = "170px"/>
+        <WorkIcon left = "420px"/>
+        <WorkIcon left = "670px"/>
+        <WorkIcon left = "920px"/>
+        <WorkIcon left = "1170px"/>
+        <WorkIcon left = "1420px"/>        
+        </div>
     );
   }
 }

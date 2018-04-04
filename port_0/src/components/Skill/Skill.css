@@ -6,7 +6,8 @@
     background-size: 70%;
     background-repeat: no-repeat;
     background-position-x: center;
-    background-position-y: center;
+    background-position-y: center;    
+    border-radius: 15px;
 }
 .skillName {
     position: absolute;
@@ -28,7 +29,19 @@
     text-align: center;
     top: 250px;
 }
-.bi1 {    background-image: url("./pics/html_css_js.png")}
-.bi2 {    background-image: url("./pics/react.png")}
-.bi3 {    background-image: url("./pics/angular.png")}
-.bi4 {    background-image: url("./pics/python.png")}
+.bi1 {    
+    background-image: url("./pics/html_css_js.png");
+    box-shadow: 1px 2px 2px 3px lightgreen;
+}
+.bi2 {    
+    background-image: url("./pics/react.png");
+    box-shadow: 1px 2px 2px 3px  lightblue;
+}
+.bi3 {    
+    background-image: url("./pics/angular.png");
+    box-shadow: 1px 2px 2px 3px  lightcoral;
+}
+.bi4 {    
+    background-image: url("./pics/python.png");
+    box-shadow: 1px 2px 2px 3px  saddlebrown;
+}
