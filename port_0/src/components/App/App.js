@@ -7,8 +7,32 @@ import Skill from '../Skill/Skill'
 import WorkIcon from '../WorkIcon/WorkIcon';
 import Arrow from '../Arrow/Arrow';
 
-export default class App extends Component {
+
+import Icn0 from './imgs/SiteIcons/SiteIcon0.png';
+import Icn1 from './imgs/SiteIcons/SiteIcon1.png';
+import Icn2 from './imgs/SiteIcons/SiteIcon2.png';
+import Icn3 from './imgs/SiteIcons/SiteIcon3.png';
+import Icn4 from './imgs/SiteIcons/SiteIcon4.png';
+import Icn5 from './imgs/SiteIcons/SiteIcon5.png';
+
+export default class App extends Component {  
   render() {
+    //loading works to slider from json. Now - manual
+    const workIconSet = [];
+    const worksTitle = [
+      "Site0", "Site1", "Site2", "Site3","Site4", "Site5", "Site6"
+    ];
+    const works = [
+      Icn0, Icn1, Icn2, Icn3, Icn4, Icn5,Icn5
+    ];
+    let i =0;
+    works.forEach (ele => {
+      workIconSet.push(<WorkIcon left = {i*250+165+"px"} text={""+worksTitle[i]} Icn={works[i]}/>);
+      if (i<5) {
+        i+=1;
+      }      
+    })
+
     return (
       <div className="App">
         <Logo />
@@ -41,12 +65,7 @@ export default class App extends Component {
           skillTextUp = "BackEnd"
           bI = "bi4"
         />
-        <WorkIcon left = "170px" text="1"/>
-        <WorkIcon left = "420px" text="2"/>
-        <WorkIcon left = "670px" text="3"/>
-        <WorkIcon left = "920px" text="4"/>
-        <WorkIcon left = "1170px" text="5"/>
-        <WorkIcon left = "1420px" text="6"/>        
+        {workIconSet}    
         
         <Arrow direction = 'aleft' />
         <Arrow direction = 'rleft' />

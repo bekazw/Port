@@ -1,9 +1,13 @@
 .WorkIcon {
     position: absolute;
     width: 200px;
-    height: 270px;
-    border: 1px solid black;
+    height: 270px;   
     left: 50px;
     top: 800px;
-    background-image: url('./SiteIcon.png');    
+      
+}
+.innerImg {
+    position: absolute;
+    left: 0;
+    top: 0;
 }

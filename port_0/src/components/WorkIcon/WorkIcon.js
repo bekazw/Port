@@ -6,6 +6,7 @@ export default class WorkIcon extends React.Component {
         return (
             <div className = "WorkIcon" 
                  style = {{ left : this.props.left}}>
+                 <img className = "innerImg" src={this.props.Icn} />
                  {this.props.text}
             </div>
         )
