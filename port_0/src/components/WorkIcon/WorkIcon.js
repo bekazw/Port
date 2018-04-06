@@ -6,7 +6,7 @@ export default class WorkIcon extends React.Component {
         return (
             <div className = "WorkIcon" 
                  style = {{ left : this.props.left}}>
-                
+                 {this.props.text}
             </div>
         )
     }

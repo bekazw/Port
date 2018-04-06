@@ -1,0 +1,18 @@
+.Arrow {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 915px;
+    background-image: url('./arr.png');    
+}
+.Arrow:hover {
+    border-radius: 15px;
+    box-shadow: 0 0 0 1px gray;
+}
+.aleft {
+    left: 115px;
+}
+.rleft {
+    left: 1640px;
+    transform: rotate(180deg)
+}

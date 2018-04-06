@@ -5,6 +5,7 @@ import Logo from '../Logo/Logo';
 import BarElement from '../NavBar/NavBarElement/BarElement';
 import Skill from '../Skill/Skill'
 import WorkIcon from '../WorkIcon/WorkIcon';
+import Arrow from '../Arrow/Arrow';
 
 export default class App extends Component {
   render() {
@@ -40,12 +41,17 @@ export default class App extends Component {
           skillTextUp = "BackEnd"
           bI = "bi4"
         />
-        <WorkIcon left = "170px"/>
-        <WorkIcon left = "420px"/>
-        <WorkIcon left = "670px"/>
-        <WorkIcon left = "920px"/>
-        <WorkIcon left = "1170px"/>
-        <WorkIcon left = "1420px"/>        
+        <WorkIcon left = "170px" text="1"/>
+        <WorkIcon left = "420px" text="2"/>
+        <WorkIcon left = "670px" text="3"/>
+        <WorkIcon left = "920px" text="4"/>
+        <WorkIcon left = "1170px" text="5"/>
+        <WorkIcon left = "1420px" text="6"/>        
+        
+        <Arrow direction = 'aleft' />
+        <Arrow direction = 'rleft' />
+
+        
         </div>
     );
   }
