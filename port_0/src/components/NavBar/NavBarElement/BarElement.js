@@ -1,6 +1,8 @@
 import React from 'react';
 import "./BarElement.css";
 
+
+
 export default class BarElement extends React.Component {
     render() {       
         return (
